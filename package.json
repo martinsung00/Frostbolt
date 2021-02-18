@@ -8,6 +8,12 @@
     "prettier": "prettier --write . && npm run type-check",
     "test": "jest || true"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier && npm run test",
+      "pre-push": "npm run prettier && npm run test"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
