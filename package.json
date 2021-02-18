@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "prettier": "prettier --write . && npm run type-check",
     "test": "jest || true"
   },
   "keywords": [],
