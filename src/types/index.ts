@@ -1,3 +1,4 @@
 import { CurrentStatus } from "./currentStatus";
+import { QueryInfo } from "./queryInfo";
 
-export { CurrentStatus };
+export { CurrentStatus, QueryInfo };
